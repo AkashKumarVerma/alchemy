@@ -58,7 +58,6 @@ namespace alchemy { namespace graphics {
     return true;
   }
 
-
   bool Window::isKeyPressed(unsigned int keycode) const {
     // TODO: Log this
     if (keycode >= MAX_KEYS) {
@@ -67,7 +66,6 @@ namespace alchemy { namespace graphics {
 
     return m_keys[keycode];
   }
-
 
   bool Window::isMouseButtonPressed(unsigned int button) const {
     if (button >= MAX_BUTTONS) {
